@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+
+	"name": "Infwaterfall",
+	"description": "Infinite waterfalls for reddit",
+	"version": "1.0",
+
+	"web_accessible_resources": [
+		"*.css",
+		"*.svg"
+	],
+
+	"content_scripts": [{
+		"css": [ "infgrid.css" ],
+		"js": [ "infgrid.js" ],
+		"matches": [ "https://*.reddit.com/*" ],
+		"run_at": "document_start"
+	}],
+
+	"permissions": [
+		"https://*/*",
+		"storage",
+		"tabs"
+	]
+}

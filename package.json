@@ -1,0 +1,19 @@
+{
+	"name": "infwaterfall",
+	"version": "1.0.0",
+	"main": "foreground.main.js",
+	"author": "Julien Paris",
+	"license": "MIT",
+	"browserslist": [
+		"chrome >= 55",
+		"ff >= 53",
+		"edge >= 15",
+		"opera >= 42"
+	],
+	"devDependencies": {
+		"node-sass": "^4.7.2"
+	},
+	"dependencies": {
+		"babel-polyfill": "^6.26.0"
+	}
+}
